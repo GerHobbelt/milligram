@@ -6,16 +6,16 @@
  * Licensed under the MIT license
  */
 
-#wms_search input[type='email'],
-#wms_search input[type='number'],
-#wms_search input[type='password'],
-#wms_search input[type='search'],
-#wms_search input[type='tel'],
-#wms_search input[type='text'],
-#wms_search input[type='url'],
-#wms_search input:not([type]),
-#wms_search textarea,
-#wms_search select {
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='url'],
+input:not([type]),
+textarea,
+select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -29,52 +29,52 @@
   width: 100%;
 }
 
-#wms_search input[type='email']:focus,
-#wms_search input[type='number']:focus,
-#wms_search input[type='password']:focus,
-#wms_search input[type='search']:focus,
-#wms_search input[type='tel']:focus,
-#wms_search input[type='text']:focus,
-#wms_search input[type='url']:focus,
-#wms_search input:not([type]):focus,
-#wms_search textarea:focus,
-#wms_search select:focus {
+input[type='email']:focus,
+input[type='number']:focus,
+input[type='password']:focus,
+input[type='search']:focus,
+input[type='tel']:focus,
+input[type='text']:focus,
+input[type='url']:focus,
+input:not([type]):focus,
+textarea:focus,
+select:focus {
   border-color: #9b4dca;
   outline: 0;
 }
 
-#wms_search select {
+select {
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="%23d1d1d1" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>') center right no-repeat;
   padding-right: 3.0rem;
 }
 
-#wms_search select:focus {
+select:focus {
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="%239b4dca" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>');
 }
 
-#wms_search textarea {
+textarea {
   min-height: 6.5rem;
 }
 
-#wms_search label,
-#wms_search legend {
+label,
+legend {
   display: block;
   font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: .5rem;
 }
 
-#wms_search fieldset {
+fieldset {
   border-width: 0;
   padding: 0;
 }
 
-#wms_search input[type='checkbox'],
-#wms_search input[type='radio'] {
+input[type='checkbox'],
+input[type='radio'] {
   display: inline;
 }
 
-#wms_search .label-inline {
+.label-inline {
   display: inline-block;
   font-weight: normal;
   margin-left: .5rem;
