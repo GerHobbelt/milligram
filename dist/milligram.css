@@ -6,6 +6,80 @@
  * Licensed under the MIT license
  */
 
+#wms_search input[type='email'],
+#wms_search input[type='number'],
+#wms_search input[type='password'],
+#wms_search input[type='search'],
+#wms_search input[type='tel'],
+#wms_search input[type='text'],
+#wms_search input[type='url'],
+#wms_search input:not([type]),
+#wms_search textarea,
+#wms_search select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 0.1rem solid #d1d1d1;
+  border-radius: .4rem;
+  box-shadow: none;
+  box-sizing: inherit;
+  height: 3.8rem;
+  padding: .6rem 1.0rem;
+  width: 100%;
+}
+
+#wms_search input[type='email']:focus,
+#wms_search input[type='number']:focus,
+#wms_search input[type='password']:focus,
+#wms_search input[type='search']:focus,
+#wms_search input[type='tel']:focus,
+#wms_search input[type='text']:focus,
+#wms_search input[type='url']:focus,
+#wms_search input:not([type]):focus,
+#wms_search textarea:focus,
+#wms_search select:focus {
+  border-color: #9b4dca;
+  outline: 0;
+}
+
+#wms_search select {
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="%23d1d1d1" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>') center right no-repeat;
+  padding-right: 3.0rem;
+}
+
+#wms_search select:focus {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="%239b4dca" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>');
+}
+
+#wms_search textarea {
+  min-height: 6.5rem;
+}
+
+#wms_search label,
+#wms_search legend {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+#wms_search fieldset {
+  border-width: 0;
+  padding: 0;
+}
+
+#wms_search input[type='checkbox'],
+#wms_search input[type='radio'] {
+  display: inline;
+}
+
+#wms_search .label-inline {
+  display: inline-block;
+  font-weight: normal;
+  margin-left: .5rem;
+}
+
 #wms_search .container {
   margin: 0 auto;
   max-width: 112.0rem;
