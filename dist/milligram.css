@@ -6,6 +6,7 @@
  * Licensed under the MIT license
  */
 
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap");
 *,
 *:after,
 *:before {
@@ -42,10 +43,10 @@ button,
 input[type='button'],
 input[type='reset'],
 input[type='submit'] {
-  background-color: #82ffff;
-  border: 0.1rem solid #82ffff;
+  background-color: #020202;
+  border: 0.1rem solid #020202;
   border-radius: .4rem;
-  color: #222;
+  color: #f0f0f0;
   cursor: pointer;
   display: inline-block;
   font-size: 1.1rem;
@@ -71,7 +72,7 @@ input[type='submit']:focus,
 input[type='submit']:hover {
   background-color: #606c76;
   border-color: #606c76;
-  color: #222;
+  color: #f0f0f0;
   outline: 0;
 }
 
@@ -93,8 +94,8 @@ input[type='reset'][disabled]:focus,
 input[type='reset'][disabled]:hover,
 input[type='submit'][disabled]:focus,
 input[type='submit'][disabled]:hover {
-  background-color: #82ffff;
-  border-color: #82ffff;
+  background-color: #020202;
+  border-color: #020202;
 }
 
 .button.button-outline,
@@ -103,7 +104,7 @@ input[type='button'].button-outline,
 input[type='reset'].button-outline,
 input[type='submit'].button-outline {
   background-color: transparent;
-  color: #82ffff;
+  color: #020202;
 }
 
 .button.button-outline:focus, .button.button-outline:hover,
@@ -130,7 +131,7 @@ input[type='reset'].button-outline[disabled]:hover,
 input[type='submit'].button-outline[disabled]:focus,
 input[type='submit'].button-outline[disabled]:hover {
   border-color: inherit;
-  color: #82ffff;
+  color: #020202;
 }
 
 .button.button-clear,
@@ -140,7 +141,7 @@ input[type='reset'].button-clear,
 input[type='submit'].button-clear {
   background-color: transparent;
   border-color: transparent;
-  color: #82ffff;
+  color: #020202;
 }
 
 .button.button-clear:focus, .button.button-clear:hover,
@@ -166,7 +167,7 @@ input[type='reset'].button-clear[disabled]:focus,
 input[type='reset'].button-clear[disabled]:hover,
 input[type='submit'].button-clear[disabled]:focus,
 input[type='submit'].button-clear[disabled]:hover {
-  color: #82ffff;
+  color: #020202;
 }
 
 code {
@@ -180,7 +181,7 @@ code {
 
 pre {
   background: #f4f5f6;
-  border-left: 0.3rem solid #82ffff;
+  border-left: 0.3rem solid #020202;
   overflow-y: hidden;
 }
 
@@ -242,7 +243,7 @@ input[type='datetime-local']:focus,
 input:not([type]):focus,
 textarea:focus,
 select:focus {
-  border-color: #82ffff;
+  border-color: #020202;
   outline: 0;
 }
 
@@ -455,7 +456,7 @@ input[type='radio'] {
 }
 
 a {
-  color: #82ffff;
+  color: #020202;
   text-decoration: none;
 }
 
