@@ -1,11 +1,11 @@
 {
-	"name": "milligram",
-	"version": "1.3.0",
-	"description": "A minimalist CSS framework.",
-	"homepage": "https://milligram.io",
-	"repository": "milligram/milligram",
+	"name": "milligram_mod",
+	"version": "2.1.1",
+	"description": "A fork of milligram/milligram.",
+	"homepage": "https://github.com/edvinbasil/milligram",
+	"repository": "edvinbasil/milligram",
 	"license": "MIT",
-	"author": "CJ Patoilo <cjpatoilo@gmail.com>",
+	"author": "Edvin Basil <edvinbasil@gmail.com>",
 	"main": "dist/milligram.css",
 	"keywords": [
 		"bootstrap",
