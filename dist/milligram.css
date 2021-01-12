@@ -2,7 +2,7 @@
   * Milligram v1.4.2
   * https://milligram.io
   *
-  * Copyright (c) 2020 CJ Patoilo
+  * Copyright (c) 2021 CJ Patoilo
   * Licensed under the MIT license
  */
 
@@ -452,7 +452,7 @@ input[type='radio'] {
   align-self: center;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 42rem) {
   .row {
     flex-direction: row;
     margin-left: -1.0rem;
@@ -553,7 +553,7 @@ th:last-child {
   padding-right: 0;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 42rem) {
   table {
     display: table;
     overflow-x: initial;
